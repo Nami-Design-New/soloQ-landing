@@ -180,11 +180,13 @@ header {
     height: 50px;
     width: auto;
     object-fit: contain;
+    padding: 5px;
   }
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
   }
 }
 .btn {

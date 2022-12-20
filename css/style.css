@@ -183,11 +183,13 @@ header .logo {
   width: auto;
   -o-object-fit: contain;
      object-fit: contain;
+  padding: 5px;
 }
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .btn {
