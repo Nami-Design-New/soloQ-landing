@@ -507,12 +507,12 @@ footer .links a:hover {
 .appImgs .sectionTitle h1 {
   font-weight: bold;
   line-height: 44px;
-  font-size: 32px !important;
+  font-size: 28px !important;
   text-align: start;
 }
 @media (max-width: 768px) {
   .appImgs .sectionTitle h1 {
-    font-size: 22px !important;
+    font-size: 18px !important;
     text-align: center;
   }
 }
