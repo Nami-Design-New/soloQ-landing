@@ -207,6 +207,7 @@ header {
   }
 }
 .mainSection {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -216,6 +217,7 @@ header {
   background-position: center center !important;
   height: 490px;
   border-radius: 0 0 8px 8px;
+  margin-bottom: 50px;
   h1 {
     font-weight: bold;
     color: $white-color;
@@ -229,6 +231,19 @@ header {
       font-size: 22px !important;
     }
   }
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    z-index: -1;
+    background-color: #944ee790;
+    width: 95%;
+    height: 200px;
+    border-radius: 100%;
+    transform: translateX(-50%);
+  }
+ 
 }
 .download {
   margin: 10px 0;
@@ -326,12 +341,13 @@ footer {
       justify-content: center;
       // border: 1px solid $mainColor;
       border-radius: 100px;
-      background-color: $white-color;
+      background-color: #944ee710;
       margin: 2px;
       transition: $transition;
       &:hover {
         transform: translateY(-5px);
         box-shadow: $shadow;
+        background-color: $white-color;
       }
       a {
         display: flex;
