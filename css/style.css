@@ -398,11 +398,11 @@ footer .links a:hover {
 }
 .title h1 {
   font-weight: bold;
-  font-size: 32px !important;
+  font-size: 24px !important;
 }
 @media (max-width: 768px) {
   .title h1 {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
 }
 .title h6,
@@ -522,7 +522,7 @@ footer .links a:hover {
 .appImgs .sectionTitle h1 {
   font-weight: bold;
   line-height: 44px;
-  font-size: 28px !important;
+  font-size: 24px !important;
   text-align: start;
 }
 @media (max-width: 768px) {
@@ -677,6 +677,24 @@ textarea.inputForm {
   background: #434340 !important;
   color: #ffffff !important;
   box-shadow: 0px 6px 0px #242424 !important;
+}
+
+.sectionIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: rgba(148, 78, 231, 0.1882352941);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.sectionIcon img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /* PC device :991px. */
