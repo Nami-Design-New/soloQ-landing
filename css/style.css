@@ -80,6 +80,7 @@ img {
 
 body {
   background-color: #fdfdfd;
+  overflow-x: hidden;
 }
 
 content {
@@ -193,7 +194,7 @@ header .container {
 }
 
 .btn {
-  padding: 16px 32px;
+  padding: 12px 32px;
   border: none;
   background-color: #944ee7;
   color: #ffffff;
@@ -201,12 +202,20 @@ header .container {
   box-shadow: 0px 6px 0px #662ab0;
   transition: all 0.3s ease-in-out;
   display: inline-flex;
+  align-items: center;
+  gap: 8px;
   cursor: pointer;
 }
 .btn:hover {
   transform: translateY(6px);
   color: #ffffff;
   box-shadow: none !important;
+}
+.btn img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .mainSection {

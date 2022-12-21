@@ -9,7 +9,7 @@
     <link rel="icon" type="image/x-icon" href="img/fav.svg">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -38,15 +38,13 @@
         <!-- main section -->
         <section class="mainSection"
             style="background: linear-gradient(-45deg, #944ee775, #934ee7af), url(img/main.webp)">
-            <h1> كون مجموعتك وابدأ نشاطاتك الخاصة </h1>
-            <a href="#download" class="btn"> حمل التطبيق الآن </a>
+            <h1 data-aos="zoom-in-down"> كون مجموعتك وابدأ نشاطاتك الخاصة </h1>
+            <a href="#download" class="btn"> حمل التطبيق الآن <img src="img/download.svg" alt=""> </a>
         </section>
-
-
         <!-- appImgs -->
-        <section class="appImgs">
-           
-            <div class="sectionTitle">
+        <section class="appImgs" data-aos="fade-up">
+
+            <div class="sectionTitle" >
                 <h1> صور التطبيق </h1>
                 <!-- siper conrtol -->
                 <div class="swiperBtns">
@@ -58,40 +56,40 @@
             <div class="swiper phoneImgs">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="img/1.webp" />
+                        <img src="img/1.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/2.webp" />
+                        <img src="img/2.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/3.webp" />
+                        <img src="img/3.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/4.webp" />
+                        <img src="img/4.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/5.webp" />
+                        <img src="img/5.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/6.webp" />
+                        <img src="img/6.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/7.webp" />
+                        <img src="img/7.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/8.webp" />
+                        <img src="img/8.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/9.webp" />
+                        <img src="img/9.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/10.webp" />
+                        <img src="img/10.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/11.webp" />
+                        <img src="img/11.webp"/>
                     </div>
                     <div class="swiper-slide">
-                        <img src="img/12.webp" />
+                        <img src="img/12.webp"/>
                     </div>
                 </div>
                 <img src="img/2.png" class="frame" alt="">
@@ -100,51 +98,49 @@
         <!-- download -->
         <section class="download" id="download">
             <div class="data">
-         
-                <h1> تطبيق الجوال </h1>
-                <p> حمل التطبيق على جوالك واطلب بضغطة زر </p>
+                <h1 data-aos="fade-up"> تطبيق الجوال </h1>
+                <p data-aos="fade-up"> حمل التطبيق على جوالك بضغطة زر </p>
                 <div class="links">
                     <a href="#!">
-                        <img src="img/app-store.avif" alt="">
+                        <img src="img/app-store.avif" alt="" data-aos="fade-right"  data-aos-delay="400">
                     </a>
                     <a href="#!">
-                        <img src="img/google-play.avif" alt="">
+                        <img src="img/google-play.avif" alt="" data-aos="fade-right" data-aos-delay="800">
                     </a>
                 </div>
             </div>
-            <img class="mobileImg" src="img/info.webp" alt="">
+            <img class="mobileImg" src="img/info.webp" alt="" data-aos="fade-left">
         </section>
-
         <!-- contact us -->
         <section class="contactUs">
             <!-- contactInfo -->
             <div class="contactInfo">
                 <!-- Section Title -->
-                <div class="sectionIcon">
+                <div class="sectionIcon" data-aos="fade-up">
                     <img src="img/contact.svg" alt="">
                 </div>
                 <div class="title">
-                    <h1> تواصل معنا </h1>
-                    <p> كن علي اتصال دائم بنا ... </p>
+                    <h1 data-aos="fade-up"> تواصل معنا </h1>
+                    <p data-aos="fade-up"> كن علي اتصال دائم بنا ... </p>
                 </div>
                 <!-- info -->
-                <div class="info">
+                <div class="info" data-aos="fade-up">
                     <h6> العنوان </h6>
                     <p> السعودية - الرياض </p>
                 </div>
                 <!-- info -->
-                <div class="info">
+                <div class="info" data-aos="fade-up">
                     <h6> البريد الالكتروني </h6>
                     <a href="mailto:mail@mail.com">mail@mail.com</a>
                 </div>
                 <!-- info -->
-                <div class="info">
+                <div class="info" data-aos="fade-up">
                     <h6> رقم الجوال </h6>
                     <a href="tel:+9960000000"> +9960000000 </a>
                 </div>
             </div>
             <!-- form -->
-            <form action="">
+            <form action="" data-aos="fade-up">
                 <div class="inputGroup">
                     <div class="inputField">
                         <label class="form-label"> الاسم كامل </label>
@@ -159,7 +155,7 @@
                     <label class="form-label"> اكتب رسالتك </label>
                     <textarea class="inputForm" rows="8"></textarea>
                 </div>
-                <button type="submit" class="btn"> ارسال </button>
+                <button type="submit" class="btn"> ارسال <img src="img/send.svg" alt=""> </button>
             </form>
         </section>
 
@@ -243,6 +239,33 @@
         });
 
     </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // aos
+        AOS.init({
+            offset: 60,
+            delay: 50,
+            duration: 700,
+            // easing: "linear",
+            once: true,
+        });
+        //aos Delay
+        function aosDelay() {
+            var class_ = "mainSection";
+            $("section").each(function (i) {
+                class_ = $(this).attr("class");
+                $("." + class_ + " div[data-aos]").each(function (i) {
+                    var d = 0;
+                    d = i * 100;
+                    $(this).attr("data-aos-delay", d);
+                    d = 0;
+                });
+            });
+        }
+        aosDelay();
+
+    </script>
+
 </body>
 
 </html>
